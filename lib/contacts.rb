@@ -21,6 +21,5 @@ def remove_strawberry(contacts)
           value.delete_if{|flavour| flavour == "strawberry"}
         end
     end
-
   end
 end
