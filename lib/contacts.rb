@@ -19,6 +19,7 @@ def remove_strawberry(contacts)
     if name == "Freddy Mercury"
     details.each do |attribute, value|
       if value == :favorite_ice_cream_flavors
+        binding.pry
         :favorite_ice_cream_flavors.shift
       end
     end
